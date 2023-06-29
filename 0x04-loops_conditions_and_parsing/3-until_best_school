@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+item=1
+until [ $item -gt 10 ]
+do
+    echo "Best School"
+    item=$((item + 1))
+done
