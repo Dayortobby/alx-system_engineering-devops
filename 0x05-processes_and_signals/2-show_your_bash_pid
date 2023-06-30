@@ -17,3 +17,4 @@ done
 # read -r line reads each line from the input and assigns it to the variable line.
 # pid=$(echo "$line" | awk '{print $2}') uses awk to extract the second field (PID) from each line. The result is stored in the pid variable.
 # echo "Bash PID: $pid" prints the extracted PID with a descriptive message.
+# NOTE: the answer can simply be "ps aux | grep bash".
