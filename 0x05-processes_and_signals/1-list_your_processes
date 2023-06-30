@@ -4,4 +4,8 @@
 # Display in a user-oriented format
 # Show process hierarchy
 
-ps -ef --forest
+# To get the process information using the ps command
+process=$(ps axjf)
+
+# To print the process information
+echo "$process" | head -50
