@@ -10,4 +10,4 @@ while IFS= read -r line
 do
     pid=$(echo "$line" | awk '{print $2}')
     echo "Bash PID: $pid"
-done <<< "$lines"
+done
