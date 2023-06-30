@@ -11,3 +11,9 @@ do
     pid=$(echo "$line" | awk '{print $2}')
     echo "Bash PID: $pid"
 done
+
+# while loop that iterates over each line of the captured output stored in the lines variable
+# IFS= sets the Internal Field Separator (IFS) to an empty value. This is done to preserve leading and trailing whitespace in each line.
+# read -r line reads each line from the input and assigns it to the variable line.
+# pid=$(echo "$line" | awk '{print $2}') uses awk to extract the second field (PID) from each line. The result is stored in the pid variable.
+# echo "Bash PID: $pid" prints the extracted PID with a descriptive message.
