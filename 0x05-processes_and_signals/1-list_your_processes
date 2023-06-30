@@ -5,7 +5,7 @@
 # Show process hierarchy
 
 # To get the process information using the ps command
-process=$(ps axjf)
+process=$(ps -auxf)
 
 # To print the process information
 echo "$process" | head -50
