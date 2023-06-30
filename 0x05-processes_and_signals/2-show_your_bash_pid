@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Using your previous exercise command, write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
+# shellcheck disable=SC2009
+
+# To find the lines containing the word "bash" in the process list
+lines=$(ps aux | grep bash)
+
+# Loop through the lines and extract the PID
+while IFS= read -r line
+do
+    pid=$(echo "$line" | awk '{print $2}')
+    echo "Bash PID: $pid"
+done <<< "$lines"
