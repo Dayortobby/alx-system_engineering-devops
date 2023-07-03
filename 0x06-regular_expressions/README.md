@@ -82,7 +82,6 @@ All your regex must be built for the Oniguruma library
 Tasks
 0. Simply matching School
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 
 Requirements:
@@ -110,7 +109,6 @@ File: 0-simply_match_school.rb
 
 1. Repetition Token #0
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 
 Requirements:
@@ -129,8 +127,6 @@ File: 1-repetition_token_0.rb
 
 2. Repetition Token #1
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
 
 Requirements:
 
