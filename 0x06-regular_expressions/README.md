@@ -143,7 +143,6 @@ File: 2-repetition_token_1.rb
 
 3. Repetition Token #2
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 
 Requirements:
@@ -161,7 +160,6 @@ File: 3-repetition_token_2.rb
 
 4. Repetition Token #3
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 
 Requirements:
