@@ -180,7 +180,6 @@ File: 4-repetition_token_3.rb
 
 5. Not quite HBTN yet
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Requirements:
 
 The regular expression must be exactly matching a string that starts with h ends with n and can have any single character in between
@@ -209,7 +208,6 @@ File: 5-beginning_and_end.rb
 
 6. Call me maybe
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 This task is brought to you by a professional advisor Neha Jain, Senior Software Engineer at LinkedIn.
 
 Requirement:
@@ -237,8 +235,6 @@ File: 6-phone_number.rb
 
 7. OMG WHY ARE YOU SHOUTING?
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
 
 Requirement:
 
@@ -263,7 +259,6 @@ File: 7-OMG_WHY_ARE_YOU_SHOUTING.rb
 
 8. Textme
 #advanced
-Score: 0.0% (Checks completed: 0.0%)
 This exercise was prepared for you by Guillaume Plessis, VP of Infrastructure at TextMe. It is something he uses daily. You can thank Guillaume for his project on Twitter.
 
 For this task, you’ll be taking over Guillaume’s responsibilities: one afternoon, a TextMe VoIP Engineer comes to you and explains she wants to run some statistics on the TextMe app text messages transactions.
