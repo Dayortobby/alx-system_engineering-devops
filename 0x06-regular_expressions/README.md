@@ -24,9 +24,7 @@ Read about regexp:
 
 http://www.regular-expressions.info/
 http://www.w3schools.com/jsref/jsref_obj_regexp.asp Play with regexp (or compose them):
-
 Ruby: http://rubular.com/
-
 PHP/Javascript/Python: https://regex101.com/
 
 
