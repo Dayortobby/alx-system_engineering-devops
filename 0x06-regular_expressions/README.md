@@ -1,5 +1,5 @@
 0x06. Regular expression
-Reeegex
+Regex
 DevOps
 
 
