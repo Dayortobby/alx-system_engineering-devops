@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Bash script that pings an IP address passed as an argument.
+#+ Accepts a string as an argument
+#+ Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
+#+ Ping the IP 5 times
+
+# Function to display usage message
+function display_usage() {
+    echo "Usage: $0 {IP_ADDRESS}"
+}
+
+# Check if an argument is provided
+if [ $# -eq 0 ]; then
+    display_usage
+else
+    # Get the first argument as the IP address
+    ip_address=$1
+
+    # Ping the IP address 5 times and display the result
+    echo "PING $ip_address"
+    ping -c 5 "$ip_address"
+fi
